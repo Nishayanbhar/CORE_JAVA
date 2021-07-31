@@ -13,7 +13,8 @@ class StaticMembers1	//executable class
 {
 	public static void main(String args[])
 	{
-		System.out.println("k value is:" +Demo.k);
+		System.out.println("k value is:" +Demo.k); //access by using class name
 		Demo.test();
 	}
+
 }
